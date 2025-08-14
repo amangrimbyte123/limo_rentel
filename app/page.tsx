@@ -15,16 +15,16 @@ export default function Home() {
     <div className="bg-background text-foreground min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 flex flex-col">
-        <Hero className="section-spacing" />
+        <Hero />
         
-        <OurPromise className="section-spacing" />
-        <Fleet className="section-spacing" />
-        <Services className="section-spacing" />
+        <OurPromise />
+        <Fleet />
+        <Services />
         
-        <About className="section-spacing" />
-        <Testimonials className="section-spacing" />
-        <Booking className="section-spacing" />
-        <Contact className="section-spacing" />
+        <About />
+        <Testimonials />
+        <Booking />
+        <Contact />
       </main>
       <Footer />
     </div>
